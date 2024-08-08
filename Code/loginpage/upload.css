@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center  ;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.upload-section{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 160px;
+    background-color :rgb(171, 234, 153);
+}
+/* .upload-section h1{
+    background-color: rgb(243, 155, 251);
+    display: flex;
+    justify-self: left;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+} */
+
+.upload-container {
+    margin-bottom: 55px;
+}
+
+.upload-label {
+    display: block;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    width: fit-content;
+    border-radius: 5px;
+    font-weight:normal;
+    border: solid black .3px;
+}
+
+input[type="file"] {
+    display: block;
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    background-color: white;
+    border: solid black .5px;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
